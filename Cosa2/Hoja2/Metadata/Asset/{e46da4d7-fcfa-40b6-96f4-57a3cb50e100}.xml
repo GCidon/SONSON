@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{e46da4d7-fcfa-40b6-96f4-57a3cb50e100}">
+		<property name="assetPath">
+			<value>Clacks/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99ef7f56-7a88-4dd2-bf55-e9fdf5f25474}</destination>
+		</relationship>
+	</object>
+</objects>

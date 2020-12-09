@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{e8bff9c5-8b39-4cdf-872e-3b37f02fa867}">
+		<property name="assetPath">
+			<value>Clacks/retordodecarro.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.98462585034013606</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99ef7f56-7a88-4dd2-bf55-e9fdf5f25474}</destination>
+		</relationship>
+	</object>
+</objects>

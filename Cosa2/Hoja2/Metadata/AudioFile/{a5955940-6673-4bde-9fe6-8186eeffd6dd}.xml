@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a5955940-6673-4bde-9fe6-8186eeffd6dd}">
+		<property name="assetPath">
+			<value>Clacks/clack4.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.26666666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99ef7f56-7a88-4dd2-bf55-e9fdf5f25474}</destination>
+		</relationship>
+	</object>
+</objects>
