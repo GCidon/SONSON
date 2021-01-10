@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{ac5739ca-5cf2-4b13-9ab5-3e426c32e69a}">
+		<property name="assetPath">
+			<value>Cries/baby-crying-07.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.288</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{167ca37d-b249-4f55-a665-85e0acf60556}</destination>
+		</relationship>
+	</object>
+</objects>

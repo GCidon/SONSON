@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : SoundEmitter
 {
-  
+
     void Start()
     {
         
@@ -13,10 +13,11 @@ public class Player : SoundEmitter
     
     void Update()
     {
-        if (Input.anyKey)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             EmitSound();
         }
+
     }
 
 

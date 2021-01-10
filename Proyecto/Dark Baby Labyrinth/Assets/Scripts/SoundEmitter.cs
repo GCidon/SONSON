@@ -17,7 +17,7 @@ public class SoundEmitter : MonoBehaviour
         {
             GameObject obj = Instantiate(wave_, gameObject.transform.position, transform.rotation);
 
-            obj.GetComponent<Rigidbody2D>().velocity = Rotate(new Vector2(1, 0), (360.0f / 2.0f) - incr * i) * speed_;
+            obj.GetComponent<Rigidbody2D>().velocity = Rotate(new Vector2(1, 0), (360.0f / 2.0f) - ((incr * i)+Random.Range(-incr, +incr))) * speed_;
 
             //fixes rotation so bullets look in the direction they move
             //obj.transform.rotation = Quaternion.LookRotation(obj.GetComponent<Rigidbody2D>().velocity, Vector2.up);
