@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4706373921810633624}
   m_Layer: 8
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Wave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490b00bab9ae5554094c715cf603ca86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time_: 1
-  timeDying_: 1
+  time_: 0.5
+  timeDying_: 0.5
 --- !u!58 &-3059034808655654307
 CircleCollider2D:
   m_ObjectHideFlags: 0

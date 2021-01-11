@@ -27,7 +27,7 @@ public class ChangeRay : MonoBehaviour
         }
     }
 
-    void ChangeColor(string tag)
+    public void ChangeColor(string tag)
     {
         Color c;
         switch (tag)
@@ -39,6 +39,8 @@ public class ChangeRay : MonoBehaviour
                 c = Color.white;
                 break;
         }
+        if (trail_.startColor == c)
+            return;
 
         GameObject a = Instantiate(gameObject);
         a.GetComponent<TimeToLive>().set(TTL_.time_, TTL_.timeDying_);

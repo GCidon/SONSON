@@ -22,5 +22,7 @@ public class Zona : MonoBehaviour
         print(collision.tag);
         if(collision.tag == "player")
             player.steps.setParameterByName("Material", tipo);
+        if (collision.tag == "Wave")
+            collision.GetComponent<ChangeRay>().ChangeColor(tag);
     }
 }
