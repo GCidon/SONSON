@@ -9,15 +9,16 @@ public class SoundEmitter : MonoBehaviour
     public float speed_;
     public GameObject wave_;
 
-    protected void EmitSound()
+    protected void EmitSound(float timetolive)
     {
         float incr = 360.0f / waveNum_;
 
         for (int i = 0; i < waveNum_; i++)
         {
             GameObject obj = Instantiate(wave_, gameObject.transform.position, transform.rotation);
+            obj.GetComponent<TimeToLive>().time_ = timetolive;
 
-            obj.GetComponent<Rigidbody2D>().velocity = Rotate(new Vector2(1, 0), (360.0f / 2.0f) - ((incr * i)+Random.Range(-incr, +incr))) * speed_;
+            obj.GetComponent<Rigidbody2D>().velocity = Rotate(new Vector2(1, 0), (360.0f / 2.0f) - ((incr * i)/*+Random.Range(-incr, +incr)*/)) * speed_;
 
             //fixes rotation so bullets look in the direction they move
             //obj.transform.rotation = Quaternion.LookRotation(obj.GetComponent<Rigidbody2D>().velocity, Vector2.up);

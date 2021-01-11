@@ -10,4 +10,5 @@ public class TimeToLive : MonoBehaviour
     {
         Destroy(gameObject, time_);
     }
+
 }
