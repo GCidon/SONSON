@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{8996a001-3346-48d7-8572-ff1693691c6d}">
+		<property name="assetPath">
+			<value>Gotera/Water Droplet - Sound Effect (HD).mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.1420408163265305</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{167ca37d-b249-4f55-a665-85e0acf60556}</destination>
+		</relationship>
+	</object>
+</objects>
