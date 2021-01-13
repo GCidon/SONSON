@@ -138,6 +138,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1281754487}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2068537497200080719, guid: 63ba067741ba288498c4e210bd29edb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -564,6 +584,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1281754487}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.r
+      value: 0.19866675
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.g
+      value: 0.4811321
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.b
+      value: 0.15659487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068537497200080718, guid: 63ba067741ba288498c4e210bd29edb3,
+        type: 3}
+      propertyPath: c.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2068537497200080719, guid: 63ba067741ba288498c4e210bd29edb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -713,6 +753,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1281754487}
+    - target: {fileID: 2847155723808612688, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
+        type: 3}
+      propertyPath: c.r
+      value: 0.11035956
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847155723808612688, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
+        type: 3}
+      propertyPath: c.g
+      value: 0.17769448
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847155723808612688, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
+        type: 3}
+      propertyPath: c.b
+      value: 0.754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847155723808612688, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
+        type: 3}
+      propertyPath: c.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3140979537672581484, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
         type: 3}
       propertyPath: m_Size.x

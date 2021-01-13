@@ -8,6 +8,12 @@ public class SoundEmitter : MonoBehaviour
     public int waveNum_;
     public float speed_;
     public GameObject wave_;
+    public Color color_ = Color.white;
+
+    public void setColor(Color c)
+    {
+        color_ = c;
+    }
 
     protected void EmitSound(float timetolive)
     {
@@ -19,6 +25,9 @@ public class SoundEmitter : MonoBehaviour
             obj.GetComponent<TimeToLive>().time_ = timetolive;
 
             obj.GetComponent<Rigidbody2D>().velocity = Rotate(new Vector2(1, 0), (360.0f / 2.0f) - ((incr * i)/*+Random.Range(-incr, +incr)*/)) * speed_;
+
+            obj.GetComponent<TrailRenderer>().startColor = color_;
+            obj.GetComponent<TrailRenderer>().endColor = color_;
 
             //fixes rotation so bullets look in the direction they move
             //obj.transform.rotation = Quaternion.LookRotation(obj.GetComponent<Rigidbody2D>().velocity, Vector2.up);

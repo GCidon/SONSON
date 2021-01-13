@@ -8,6 +8,7 @@ public class Player : SoundEmitter
     public float moveSpeed;
     public float soundCD;
     private float soundTimer;
+    
 
     public FMOD.Studio.EventInstance steps;
 
