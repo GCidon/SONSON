@@ -1,14 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Baby : SoundEmitter
 {
     public float soundCD;
+    public string scene;
     private float soundTimer;
     public GameObject player;
     private float obsIndex;
 
+    private bool loading = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +49,15 @@ public class Baby : SoundEmitter
         if (obsIndex > 0.0f)
         {
             obsIndex -= 0.01f;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "player" && !loading)
+        {
+            loading = true;
+            SceneManager.LoadScene(scene);
         }
     }
 }
