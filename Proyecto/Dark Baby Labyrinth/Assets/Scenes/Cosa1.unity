@@ -560,6 +560,11 @@ PrefabInstance:
       propertyPath: scene
       value: Cosa2
       objectReference: {fileID: 0}
+    - target: {fileID: 6304204984230755145, guid: c3632607fd33cab47a9282e46c11290e,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1281754484}
     - target: {fileID: 6304204984230755155, guid: c3632607fd33cab47a9282e46c11290e,
         type: 3}
       propertyPath: m_Name
