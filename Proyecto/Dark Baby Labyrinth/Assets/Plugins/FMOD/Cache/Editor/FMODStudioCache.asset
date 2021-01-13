@@ -20,6 +20,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-7885900698469875527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6858329243472060784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +83,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -2025216489253033446}
+  - {fileID: -7885900698469875527}
   MinDistance: 1
   MaxDistance: 20
   Length: 50712
@@ -147,6 +167,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-3696828425846452365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia 2D/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2716432128556546443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +222,26 @@ MonoBehaviour:
   Name: Obstruccion
   Min: 0
   Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-1334789044985112194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 2
   Default: 0
   ID:
     data1: 0
@@ -226,12 +286,13 @@ MonoBehaviour:
   - {fileID: -6858329243472060784}
   - {fileID: 7591246158591796005}
   - {fileID: -5719978070343665166}
+  - {fileID: 8942850193635577077}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1012332632478428706}
   StringsBanks:
   - {fileID: 3599185702057152502}
-  stringsBankWriteTime: 637461494664769069
+  stringsBankWriteTime: 637461507755678871
   cacheVersion: 5
 --- !u!114 &1012332632478428706
 MonoBehaviour:
@@ -247,7 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../DBL_FLS/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637461494664719486
+  lastModified: 637461507755678871
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -265,11 +326,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../DBL_FLS/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637461494664769069
+  lastModified: 637461507755678871
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 934
+    Value: 978
   Exists: 1
 --- !u!114 &5336623844994374892
 MonoBehaviour:
@@ -331,7 +392,31 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -4878021890919447488}
+  - {fileID: -1334789044985112194}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &8942850193635577077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lluvia 2D
+  m_EditorClassIdentifier: 
+  Path: event:/Lluvia 2D
+  guid: 04f6226fcbf62442b202c81d6fffb1c0
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3696828425846452365}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 50712
