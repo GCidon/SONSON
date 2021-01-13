@@ -19,7 +19,6 @@ public class Zona : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        print(collision.tag);
         if(collision.tag == "player")
             player.steps.setParameterByName("Material", tipo);
         if (collision.tag == "Wave")

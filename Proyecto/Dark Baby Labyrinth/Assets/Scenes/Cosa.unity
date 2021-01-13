@@ -733,6 +733,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5159732510037396511, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
+        type: 3}
+      propertyPath: m_TagString
+      value: cesped
+      objectReference: {fileID: 0}
     - target: {fileID: 8908737184122323826, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ZonaLluvia : Zona
 {
     public GameObject gota;
-
+    public float maxDistance;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +16,9 @@ public class ZonaLluvia : Zona
     void Update()
     {
         
+        Vector2 distVec = new Vector2(player.gameObject.transform.position.x - transform.position.x, player.gameObject.transform.position.y - transform.position.y);
+        float distance = distVec.magnitude;
+        GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Obstruccion", (distance / maxDistance));
     }
 
     void creaGota()
