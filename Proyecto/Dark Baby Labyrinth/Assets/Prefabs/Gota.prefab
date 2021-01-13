@@ -46,4 +46,5 @@ MonoBehaviour:
   waveNum_: 10
   speed_: 20
   wave_: {fileID: 2321594797353267045, guid: a85abcee17012a44eb2ec8ac82141d4e, type: 3}
+  color_: {r: 0.12878121, g: 0.12775902, b: 0.9339623, a: 1}
   timetolive: 0.1

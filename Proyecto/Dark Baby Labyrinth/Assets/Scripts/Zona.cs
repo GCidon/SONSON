@@ -6,6 +6,7 @@ public class Zona : MonoBehaviour
 {
     public Player player;
     public int tipo;
+    public Color c;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,9 +20,10 @@ public class Zona : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "player")
+        if (collision.tag == "player")
+        {
             player.steps.setParameterByName("Material", tipo);
-        if (collision.tag == "Wave")
-            collision.GetComponent<ChangeRay>().ChangeColor(tag);
+            player.setColor(c);
+        }
     }
 }
