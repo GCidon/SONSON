@@ -35,6 +35,9 @@ public class ChangeRay : MonoBehaviour
             case "cesped":
                 c = Color.green;
                 break;
+            case "rug":
+                c = Color.white;
+                break;
             default:
                 c = Color.white;
                 break;
