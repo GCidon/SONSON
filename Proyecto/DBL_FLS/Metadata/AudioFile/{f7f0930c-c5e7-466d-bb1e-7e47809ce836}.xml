@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{f7f0930c-c5e7-466d-bb1e-7e47809ce836}">
+		<property name="assetPath">
+			<value>Trafico/Police-Loop.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.5975510204081633</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{167ca37d-b249-4f55-a665-85e0acf60556}</destination>
+		</relationship>
+	</object>
+</objects>
