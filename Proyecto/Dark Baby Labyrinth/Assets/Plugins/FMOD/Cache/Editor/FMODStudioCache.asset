@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8802164755046385722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-8240072958381041726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +59,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7785373402084856656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,6 +120,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-7439172782435945396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-7271270196461468994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +160,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 1620261174083181331}
+  - {fileID: 2849749226618551077}
   MinDistance: 0
   MaxDistance: 0
   Length: 50712
@@ -164,7 +204,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -7962604332414121533}
+  - {fileID: 4546035269693356891}
   MinDistance: 0
   MaxDistance: 0
   Length: 20152
@@ -188,7 +228,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 3767597720984068665}
+  - {fileID: 1248803664251042250}
   MinDistance: 1
   MaxDistance: 20
   Length: 50712
@@ -432,6 +472,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-2234753062991315262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BabyCry/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-2026802443875487155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,6 +612,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-316909751855936171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-142010022226641018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,7 +678,7 @@ MonoBehaviour:
   - {fileID: 1012332632478428706}
   StringsBanks:
   - {fileID: 3599185702057152502}
-  stringsBankWriteTime: 637463323110905793
+  stringsBankWriteTime: 637463331857902268
   cacheVersion: 5
 --- !u!114 &85797538963106477
 MonoBehaviour:
@@ -694,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../DBL_FLS/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637463323110855759
+  lastModified: 637463331696749356
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -709,6 +789,26 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/BabyCry/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &1248803664251042250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia/Obstruccion
   m_EditorClassIdentifier: 
   Name: Obstruccion
   Min: 0
@@ -777,7 +877,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2403061839446752979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,6 +958,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &2849749226618551077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia 2D/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2926868211878645384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,7 +1052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../DBL_FLS/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637463323110905793
+  lastModified: 637463331857902268
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -957,7 +1077,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3814873332476323381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1058,6 +1178,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &4546035269693356891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BabyCry/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &4565023906738185981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,7 +1217,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4608943794638198213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1119,6 +1259,26 @@ MonoBehaviour:
     data2: 0
   Exists: 0
 --- !u!114 &5239586834881370201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia 2D/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &5267102650715215166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1301,7 +1461,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 4565023906738185981}
+  - {fileID: -316909751855936171}
   MinDistance: 0
   MaxDistance: 0
   Length: 0

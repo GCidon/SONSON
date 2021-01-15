@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7704204313679988282}
   - component: {fileID: 7704204313679988281}
   - component: {fileID: 7704204313679988279}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Player
   m_TagString: player
   m_Icon: {fileID: 0}
@@ -98,7 +98,6 @@ MonoBehaviour:
   waveNum_: 16
   speed_: 10
   wave_: {fileID: 2321594797353267045, guid: a85abcee17012a44eb2ec8ac82141d4e, type: 3}
-  color_: {r: 1, g: 1, b: 1, a: 1}
   moveSpeed: 0.01
   soundCD: 0.5
 --- !u!50 &7704204313679988282
