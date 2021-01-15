@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{7a3051c6-4b9f-4c47-a07e-5751569f0ed7}">
+		<property name="name">
+			<value>Goteo</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4d7af880-a8a1-4bbb-86d2-4fbed103a4d0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f99deb03-3754-43d7-9cb9-e096df8b5173}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f99deb03-3754-43d7-9cb9-e096df8b5173}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

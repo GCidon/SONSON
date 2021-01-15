@@ -6,19 +6,21 @@ public class ZonaLluvia : Zona
 {
     public GameObject gota;
     public float maxDistance;
+
+    bool inside = false;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("creaGota", 0.5f, 0.5f);
+        InvokeRepeating("creaGota", 0.5f, 0.2f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!isInside(player.gameObject.transform.position))
+        if(!inside)
         {
             Vector2 distVec = new Vector2(player.gameObject.transform.position.x - transform.position.x, player.gameObject.transform.position.y - transform.position.y);
-            float distance = distVec.magnitude;// + GetComponent<BoxCollider2D>().size.magnitude;
+            float distance = distVec.magnitude;
             GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Obstruccion", (distance / maxDistance));
         }
         else
@@ -36,8 +38,19 @@ public class ZonaLluvia : Zona
         g.transform.position = new Vector3(x, y, 0);
     }
 
-    bool isInside(Vector3 pos)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        return GetComponent<BoxCollider2D>().bounds.Contains(pos);
+        if (collision.tag == "player")
+        {
+            inside = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "player")
+        {
+            inside = false;
+        }
     }
 }

@@ -63,7 +63,7 @@
 	<object class="MarkerTrack" id="{16e90a17-fc94-4e16-bddd-50c37e1ada48}" />
 	<object class="GroupTrack" id="{3d6d313c-6500-4e66-b111-4053f64247be}">
 		<relationship name="automationTracks">
-			<destination>{e502ff44-2b52-44c4-a4ed-5f34c5135202}</destination>
+			<destination>{ac00bddd-269f-468f-9378-ccadeb248e1a}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{20609b21-80a9-45c1-9d42-7af2ab938934}</destination>
@@ -102,7 +102,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{54f8bddc-85fd-4557-82d9-c364a4430943}" />
-	<object class="AutomationTrack" id="{e502ff44-2b52-44c4-a4ed-5f34c5135202}">
+	<object class="AutomationTrack" id="{ac00bddd-269f-468f-9378-ccadeb248e1a}">
 		<relationship name="automator">
 			<destination>{7aad389b-35e9-4076-8791-2e9217ac3139}</destination>
 		</relationship>
@@ -191,7 +191,7 @@
 			<value>20000</value>
 		</property>
 		<property name="curveShape">
-			<value>0.35872069</value>
+			<value>0.0510914437</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{06859c08-db94-41f2-822f-4fed60daba57}">
@@ -199,7 +199,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>450</value>
 		</property>
 	</object>
 </objects>
