@@ -8,9 +8,12 @@ public class Player : SoundEmitter
     public float moveSpeed;
     public float soundCD;
     private float soundTimer;
+    public float clapCD;
+    private float clapTimer;
     
 
     public FMOD.Studio.EventInstance steps;
+    public FMOD.Studio.EventInstance clap;
 
     void Awake()
     {
@@ -19,14 +22,24 @@ public class Player : SoundEmitter
     void Start()
     {
         steps = FMODUnity.RuntimeManager.CreateInstance("event:/Steps");
-    }
+        clap = FMODUnity.RuntimeManager.CreateInstance("event:/Clap");
 
+        soundTimer = soundCD;
+        clapTimer = 1.0f;
+    }
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        clapTimer -= Time.deltaTime;
+        if (clapTimer <= 0) clapTimer = 0;
+        if (Input.GetKeyDown(KeyCode.Space) && clapTimer <= 0)
         {
+            Color ant = color_;
+            setColor(Color.yellow);
             EmitSound(1.0f);
+            setColor(ant);
+            clap.start();
+            clapTimer = clapCD;
         }
 
         float h = Input.GetAxis("Horizontal");
@@ -45,8 +58,6 @@ public class Player : SoundEmitter
         tr.position += new Vector3(h * moveSpeed, v * moveSpeed, 0);
 
     }
-
-    
 
     void OnDestroy()
     {

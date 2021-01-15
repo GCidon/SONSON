@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1207742530401218705}
   - component: {fileID: -3059034808655654307}
   - component: {fileID: 8514152020419622960}
+  - component: {fileID: 625085799862391969}
   m_Layer: 8
   m_Name: Circle
   m_TagString: Wave
@@ -233,3 +234,16 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &625085799862391969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2321594797353267045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37f73c57215ba44ba5e8136ced1bcca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3050799899863550809, guid: 247e2c262980973409730ccc3ac76dca, type: 3}
