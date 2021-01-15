@@ -97,7 +97,7 @@ MonoBehaviour:
   CollisionTag: 
   Event: event:/BabyCry
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -123,6 +123,7 @@ MonoBehaviour:
   color_: {r: 1, g: 1, b: 1, a: 1}
   soundCD: 1
   scene: Cosa1
+  player: {fileID: 0}
 --- !u!61 &433863271748640791
 BoxCollider2D:
   m_ObjectHideFlags: 0
