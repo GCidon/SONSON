@@ -55,7 +55,7 @@ public class Player : SoundEmitter
             soundTimer = soundCD;
         }
 
-        tr.position += new Vector3(h * moveSpeed, v * moveSpeed, 0);
+        tr.position += new Vector3(h * moveSpeed * Time.deltaTime, v * moveSpeed * Time.deltaTime, 0);
 
     }
 

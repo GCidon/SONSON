@@ -124,9 +124,9 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 15
 --- !u!114 &4481007800812330796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir: 0
-  speed: 10
+  speed: 15
 --- !u!114 &6137641099461704772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,5 +153,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490b00bab9ae5554094c715cf603ca86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time_: 4
+  time_: 6
   timeDying_: 0

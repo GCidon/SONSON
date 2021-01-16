@@ -10,6 +10,6 @@ public class Car : MonoBehaviour
 
     void Start()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(0, speed*dir);
+        GetComponent<Rigidbody2D>().velocity = new Vector2(speed * dir , 0);
     }
 }
