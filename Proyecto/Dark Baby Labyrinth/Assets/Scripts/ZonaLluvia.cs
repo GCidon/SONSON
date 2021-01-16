@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZonaLluvia : Zona
+public class ZonaLluvia : MonoBehaviour
 {
     public GameObject gota;
     public float maxDistance;
+
+    public Player player;
+    public int tipo;
+    public Color c;
 
     bool inside = false;
     // Start is called before the first frame update
@@ -38,15 +42,17 @@ public class ZonaLluvia : Zona
         g.transform.position = new Vector3(x, y, 0);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "player")
         {
             inside = true;
+            player.steps.setParameterByName("Material", tipo);
+            player.setColor(c);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "player")
         {

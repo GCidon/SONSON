@@ -929,6 +929,11 @@ PrefabInstance:
       propertyPath: maxDistance
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 2847155723808612688, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
+        type: 3}
+      propertyPath: tipo
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3140979537672581484, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
         type: 3}
       propertyPath: m_Offset.y
@@ -1053,6 +1058,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxDistance
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847155723808612688, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
+        type: 3}
+      propertyPath: tipo
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3140979537672581484, guid: d157e6c8f5df5f04fa7215b2ebc18fbf,
         type: 3}
@@ -1405,12 +1415,12 @@ PrefabInstance:
     - target: {fileID: 2068537497200080720, guid: 63ba067741ba288498c4e210bd29edb3,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.08069831
+      value: 0.07178727
       objectReference: {fileID: 0}
     - target: {fileID: 2068537497200080720, guid: 63ba067741ba288498c4e210bd29edb3,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.2433757
+      value: 1.2255535
       objectReference: {fileID: 0}
     - target: {fileID: 2068537497200080721, guid: 63ba067741ba288498c4e210bd29edb3,
         type: 3}

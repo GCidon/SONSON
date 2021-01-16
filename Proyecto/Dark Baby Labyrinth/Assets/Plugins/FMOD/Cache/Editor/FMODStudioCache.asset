@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8846209523275456456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogo/Dialogue
+  m_EditorClassIdentifier: 
+  Name: Dialogue
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8802164755046385722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20,6 +40,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-8801395212907816879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BabyCry/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8797407592904499043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +79,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8684026332198827144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,6 +120,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-8144155495324865316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-7962604332414121533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,7 +280,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3837153103893308705}
+  - {fileID: 2731755081632045821}
   MinDistance: 0
   MaxDistance: 0
   Length: 50712
@@ -264,10 +324,10 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -6130030319296424171}
+  - {fileID: -8801395212907816879}
   MinDistance: 0
   MaxDistance: 0
-  Length: 20152
+  Length: 13400
 --- !u!114 &-6130030319296424171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +341,26 @@ MonoBehaviour:
   m_Name: parameter:/BabyCry/Obstruccion
   m_EditorClassIdentifier: 
   Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-6018053065693857007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gotera/Goteo
+  m_EditorClassIdentifier: 
+  Name: Goteo
   Min: 0
   Max: 1
   Default: 0
@@ -308,10 +388,50 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -8797407592904499043}
+  - {fileID: -8144155495324865316}
   MinDistance: 1
   MaxDistance: 20
   Length: 50712
+--- !u!114 &-5606442814308027767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-5209596819078279789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gotera2D/Pan
+  m_EditorClassIdentifier: 
+  Name: Pan
+  Min: 0
+  Max: 100
+  Default: 50
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-5038724037027444320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -792,6 +912,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-986417056402473126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Clap
+  m_EditorClassIdentifier: 
+  Path: event:/Clap
+  guid: f291c009b766d246889b062b35d7374f
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 835
 --- !u!114 &-749294282618398047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,8 +1089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/CampFire
   guid: d35a53c6c5fd5c48ad267a4402c4abd2
-  Banks:
-  - {fileID: 1012332632478428706}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -995,14 +1137,17 @@ MonoBehaviour:
   - {fileID: 7591246158591796005}
   - {fileID: -5719978070343665166}
   - {fileID: -7271270196461468994}
-  - {fileID: 6496424978758488416}
-  - {fileID: -246084506796600538}
+  - {fileID: 754097141764608330}
+  - {fileID: 1972807198620295325}
+  - {fileID: -986417056402473126}
+  - {fileID: 222644423165049835}
+  - {fileID: 4915352909625182103}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1012332632478428706}
   StringsBanks:
   - {fileID: 3599185702057152502}
-  stringsBankWriteTime: 637463357168376411
+  stringsBankWriteTime: 637463936053743012
   cacheVersion: 5
 --- !u!114 &85797538963106477
 MonoBehaviour:
@@ -1024,6 +1169,49 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &92474270531684865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BabyCry/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &222644423165049835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CampFire
+  m_EditorClassIdentifier: 
+  Path: event:/CampFire
+  guid: d35a53c6c5fd5c48ad267a4402c4abd2
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 181056
 --- !u!114 &305477163604766990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,6 +1292,31 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &754097141764608330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gotera2D
+  m_EditorClassIdentifier: 
+  Path: event:/Gotera2D
+  guid: 62a9c58ffbc63f4084b8cc88b76998e0
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7014397085039350511}
+  - {fileID: 1651520698950347404}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2142
 --- !u!114 &1012332632478428706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,7 +1331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../DBL_FLS/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637463357168326369
+  lastModified: 637463936053692843
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1222,6 +1435,70 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &1651520698950347404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gotera2D/Pan
+  m_EditorClassIdentifier: 
+  Name: Pan
+  Min: 0
+  Max: 100
+  Default: 50
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &1842527072196753995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LosingIt 2D/Zona
+  m_EditorClassIdentifier: 
+  Name: Zona
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &1972807198620295325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gotera
+  m_EditorClassIdentifier: 
+  Path: event:/Gotera
+  guid: 94a9df30978b0c47a0aaafd35d5a0448
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3982711040860221074}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1180
 --- !u!114 &2403061839446752979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1242,6 +1519,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2408717162084919550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LosingIt 2D/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2428114821758088101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1282,6 +1579,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2731755081632045821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia 2D/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2743864414778313847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,6 +1639,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &2899770791088443996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LosingIt
+  m_EditorClassIdentifier: 
+  Path: event:/LosingIt
+  guid: b9dd1e1a7156ff4899e9d0ad78965f19
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400509
 --- !u!114 &2926868211878645384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1382,6 +1722,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3330366045753804983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LosingIt 2D/Gente
+  m_EditorClassIdentifier: 
+  Name: Gente
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3540482869347731476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,6 +1762,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3558477345091196254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia 2D/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3599185702057152502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1416,11 +1796,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../DBL_FLS/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637463357168376411
+  lastModified: 637463936053743012
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1056
+    Value: 1292
   Exists: 1
 --- !u!114 &3767597720984068665
 MonoBehaviour:
@@ -1501,7 +1881,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3848149019319683230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1522,6 +1902,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3982711040860221074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gotera/Goteo
+  m_EditorClassIdentifier: 
+  Name: Goteo
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4039756338029414347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &4487676951929415931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1642,6 +2062,49 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &4838335411721532683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gotera2D/Intensity
+  m_EditorClassIdentifier: 
+  Name: Intensity
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4915352909625182103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Trafico
+  m_EditorClassIdentifier: 
+  Path: event:/Trafico
+  guid: f812a0a9ce07074a8bcd8a8039c44be8
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
 --- !u!114 &5239586834881370201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1796,8 +2259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Trafico
   guid: f812a0a9ce07074a8bcd8a8039c44be8
-  Banks:
-  - {fileID: 1012332632478428706}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -1845,6 +2307,50 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7014397085039350511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gotera2D/Intensity
+  m_EditorClassIdentifier: 
+  Name: Intensity
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7174200312202735496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogo
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogo
+  guid: 6844cb4225399b498980d8e267607baa
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8846209523275456456}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 71861
 --- !u!114 &7337285762494504494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1865,6 +2371,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7453624523388726918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lluvia/Obstruccion
+  m_EditorClassIdentifier: 
+  Name: Obstruccion
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7576438806361835719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1905,7 +2431,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 7805684983173672042}
+  - {fileID: -5606442814308027767}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -1928,7 +2454,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8337546675404258146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1969,6 +2495,32 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &8495057590490232607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LosingIt 2D
+  m_EditorClassIdentifier: 
+  Path: event:/LosingIt 2D
+  guid: e1dd5fe47c9eeb4ba80d2ab7f6ea9451
+  Banks:
+  - {fileID: 1012332632478428706}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3330366045753804983}
+  - {fileID: 2408717162084919550}
+  - {fileID: 1842527072196753995}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 400509
 --- !u!114 &8693178399395359474
 MonoBehaviour:
   m_ObjectHideFlags: 0
