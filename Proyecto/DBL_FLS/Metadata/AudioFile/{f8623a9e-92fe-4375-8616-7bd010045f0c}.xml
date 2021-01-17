@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{f8623a9e-92fe-4375-8616-7bd010045f0c}">
+		<property name="assetPath">
+			<value>Dialogo/char_dia_madeline_angry_mid_A_06.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.12970521541950114</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{167ca37d-b249-4f55-a665-85e0acf60556}</destination>
+		</relationship>
+	</object>
+</objects>

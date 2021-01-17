@@ -37,6 +37,22 @@ public class SoundEmitter : MonoBehaviour
         }
     }
 
+    protected void EmitRandomSound(float timetolive)
+    {
+        float incr = 360.0f / waveNum_;
+
+        for (int i = 0; i < waveNum_; i++)
+        {
+            GameObject obj = Instantiate(wave_, gameObject.transform.position, transform.rotation);
+            obj.GetComponent<TimeToLive>().time_ = timetolive;
+
+            obj.GetComponent<Rigidbody2D>().velocity = Rotate(new Vector2(1, 0), (360.0f / 2.0f) - ((incr * i)+Random.Range(-incr, +incr))) * speed_;
+
+            obj.GetComponent<TrailRenderer>().startColor = color_;
+            obj.GetComponent<TrailRenderer>().endColor = color_;
+        }
+    }
+
     private Vector2 Rotate(Vector2 v, float degrees)
     {
         float sin = Mathf.Sin(degrees * Mathf.Deg2Rad);
