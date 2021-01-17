@@ -6022,6 +6022,11 @@ PrefabInstance:
       propertyPath: OverrideMaxDistance
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6304204984230755148, guid: c3632607fd33cab47a9282e46c11290e,
+        type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6304204984230755155, guid: c3632607fd33cab47a9282e46c11290e,
         type: 3}
       propertyPath: m_Name
