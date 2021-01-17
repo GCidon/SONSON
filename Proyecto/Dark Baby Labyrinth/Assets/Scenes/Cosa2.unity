@@ -892,6 +892,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 254293155}
     m_Modifications:
+    - target: {fileID: 6272189456822536776, guid: d697fe8491a3af84c9c81eeb5e484cdc,
+        type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6272189456822536777, guid: d697fe8491a3af84c9c81eeb5e484cdc,
         type: 3}
       propertyPath: m_Name
@@ -1804,6 +1809,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 254293155}
     m_Modifications:
+    - target: {fileID: 6272189456822536776, guid: d697fe8491a3af84c9c81eeb5e484cdc,
+        type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6272189456822536777, guid: d697fe8491a3af84c9c81eeb5e484cdc,
         type: 3}
       propertyPath: m_Name
@@ -2030,6 +2040,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1091217954}
+    - target: {fileID: 6304204984230755145, guid: c3632607fd33cab47a9282e46c11290e,
+        type: 3}
+      propertyPath: scene
+      value: Cosa3
+      objectReference: {fileID: 0}
     - target: {fileID: 6304204984230755155, guid: c3632607fd33cab47a9282e46c11290e,
         type: 3}
       propertyPath: m_Name
@@ -3011,6 +3026,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 254293155}
     m_Modifications:
+    - target: {fileID: 6272189456822536776, guid: d697fe8491a3af84c9c81eeb5e484cdc,
+        type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6272189456822536777, guid: d697fe8491a3af84c9c81eeb5e484cdc,
         type: 3}
       propertyPath: m_Name
@@ -4213,6 +4233,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 254293155}
     m_Modifications:
+    - target: {fileID: 6272189456822536776, guid: d697fe8491a3af84c9c81eeb5e484cdc,
+        type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6272189456822536777, guid: d697fe8491a3af84c9c81eeb5e484cdc,
         type: 3}
       propertyPath: m_Name
