@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 54b40645470030e4fa29aa3ff0af0f4a
+  - enabled: 1
     path: Assets/Scenes/Cosa.unity
     guid: 1a72b30d7a319d746b7d7ce02f324723
   - enabled: 1
@@ -17,10 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cosa3.unity
     guid: e476b385be8fb0f49ba86fc32f1bc9b7
-  - enabled: 1
-    path: Assets/Scenes/Cosa4.unity
-    guid: 8fbf2c075b98a0e4a944aea93c6b37dc
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 54b40645470030e4fa29aa3ff0af0f4a
   m_configObjects: {}
